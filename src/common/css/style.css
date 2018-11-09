@@ -1,0 +1,30 @@
+body {
+    font-size: 0.12rem;
+
+}
+
+.wraper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.header {
+    color: #fff;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: #31c27c;
+}
+
+.content {
+    -webkit-flex: 1;
+    position: relative;
+}
+
